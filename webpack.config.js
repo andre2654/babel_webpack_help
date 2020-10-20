@@ -34,6 +34,13 @@ module.exports = {
 					{ loader: "css-loader" }, // Converta importações dentro do css
 				],
 			},
+			{
+				test: /.*\.(gif|png|jpg)$/i, // ? procura por uma arquivos que terminam com .gif | png | jpg
+				exclude: /node_modules/,
+				use: {
+					loader: "file-loader", // Pega o arquivo importado e injeta no html
+				},
+			},
 		],
 	},
 };
