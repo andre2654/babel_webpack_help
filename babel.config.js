@@ -6,4 +6,7 @@ module.exports = {
 		"@babel/preset-env", // preset que converte o javascript mais moderno para um mais antigo, baseado no ambiente da aplicação.
 		"@babel/preset-react", // adiciona as funcionalidades do react nessa conversão
 	],
+	plugins: [
+		"@babel/plugin-transform-runtime", // por padrão o babel ainda poderá não entender alguns async e dar problema de runtime, isso resolve
+	],
 };
