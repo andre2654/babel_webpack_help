@@ -7,3 +7,7 @@
 import { soma } from "./soma";
 
 console.log(soma(231, 133));
+
+// ! por padrão importação de css dentro de js, nem todos os browsers reconhecem
+
+import "./style.css";
