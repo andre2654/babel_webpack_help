@@ -4,9 +4,9 @@
 Este repositório foi criado com o intuito de auxiliar a todos que querem aprender na prática como funciona o Babel e o Webpack dentro do javascript em um projeto nodejs.
 
 Observações:
-    - Tente ler todo o código desenvolvido
-    - Instale a extensão "Better Comments" no VSCode para uma melhor experiência
-    - Preste atenção em todos os comentários dentro dos códigos
+- Tente ler todo o código desenvolvido
+- Instale a extensão "Better Comments" no VSCode para uma melhor experiência
+- Preste atenção em todos os comentários dentro dos códigos
 
 # Novas mudanças!
 
